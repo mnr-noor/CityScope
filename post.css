@@ -1,0 +1,158 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    /* background-color: #171529; */
+}
+
+
+/* POST section  */
+
+/* Category button  */
+.category_button{
+    background:#FDD695;
+    color: #2A2550;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius:10px;
+    font-size: 600;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+
+}
+.category_button:hover{
+    color:#FD6A2D;
+}
+
+/* MAIN POST  */
+
+.post_thumbnail img{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    border-radius:80px ;
+    border: 1.5rem solid #2A2550;
+    overflow:hidden ;
+    margin-bottom: 40px;
+    /* margin-left: px; */
+    width: 400px;
+    height: 400px;
+}
+
+.post_info{
+    margin-left: 50px;
+
+}
+.post_thumbnail img:hover{
+    filter: saturate(0);
+    transform: filter 500ms ease;
+}
+
+.post_author{
+    display: flex;
+    gap: 1rem;
+    margin-top:1.2rem;
+}
+.post_author_avatar{
+    width: 80px;
+    height: 80px;
+    border-radius: 60px;
+    overflow: hidden;
+}
+
+.post_title{
+    color:#2A2550;
+    margin-bottom: 10px;
+}
+.post_body{
+    color: #2A2550;
+    margin-bottom: 50px;
+}
+.post_author_info{
+    margin-top: 25px;
+    color: #2A2550;
+}
+
+.featured_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+}
+
+/* POSTS section  */
+
+.posts_container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5rem;
+}
+
+
+
+
+
+/* SEARCH BAR SECTION  */
+
+.search_bar{
+    margin-top: 7rem;
+
+}
+.search_bar-container{
+    position: relative;
+    width: 30rem;
+    background: #2A2550;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 0.6rem 1rem;
+    border-radius: 1000px;
+    color: white;
+    
+}
+.search_bar-container >div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.search_bar input{
+    background:transparent;
+    margin-left: 17px;
+    padding: 5px 0;
+    width: 100%;
+    border: none;
+
+}
+.btn{
+    display: inline-block;
+    width: fit-content;
+    padding: 0.6rem 1.2rem;
+    background-color: #383261;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

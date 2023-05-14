@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dashboard.css">
+
+    <title>Add Post</title>
+</head>
+<body>
+    <section class="form_section">
+        <div class="container form_section-container">
+            <h2>Add Post</h2>
+            <!-- <div class="alert_message error">
+                <p>This is an error message</p>
+            </div> -->
+                <form action="" method="post" class="">
+                    <input type="text" name="title" placeholder="Title" />
+                    <select>
+                        <option value="0">Beach</option>
+                        <option value="1">Nursery</option>
+                        <option value="2">Restaurants</option>
+                        <option value="3">Hotels</option>
+                    </select>
+                    <!-- <input type="text" name="body" placeholder="Description" /> -->
+                    <textarea rows="10" placeholder="Description"></textarea>
+                    <!-- <div class="form_control">
+                        <input type="checkbox" is="is_featured">
+                        <label for="is_featured" checked>Featured</label>
+                    </div> -->
+                    <div class="form_control">
+                        <label for="thumbnail">Add Thubmnail</label>
+                        <input type="file" id="thumbnail">
+                    </div>
+                    
+                    <input type="submit"  name="submit" class="btn" value="Add Post"  /> 
+                    
+                </form>
+        </div>
+    </section>
+</body>
+</html>

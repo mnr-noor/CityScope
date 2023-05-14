@@ -1,0 +1,104 @@
+<!-- Gallery section :))  -->
+
+<section class="gallery" id="Gallery">
+    <div class="gal-text">
+        <h1> Gallery </h1>
+        <br> <br> <br>
+    </div>
+
+    <div class="gal-pics">
+        <div class="box">
+            <div class="hov-img">
+                <img src="images/img.png" alt="img">
+            </div>
+            <div class="box-text">
+                <div class="text-in">
+                    <h5> picture </h5>
+                </div>
+            </div>
+        </div>
+<!-- ---------------------------------------- -->
+        <div class="box">
+            <div class="hov-img">
+                <img src="images/img1" alt="img">
+            </div>
+            <div class="box-text">
+                <div class="text-in">
+                    <h5> picture </h5>
+                </div>
+            </div>
+        </div>
+<!-- --------------------------------------------------- -->
+
+        <div class="box">
+            <div class="hov-img">
+                <img src="images/img.png" alt="img">
+            </div>
+            <div class="box-text">
+                <div class="text-in">
+                    <h5> picture </h5>
+                </div>
+            </div>
+        </div>
+
+<!-- -------------------------------------------------------- -->
+
+        <div class="box">
+            <div class="hov-img">
+                <img src="images/img.png" alt="img">
+            </div>
+            <div class="box-text">
+                <div class="text-in">
+                    <h5> picture </h5>
+                </div>
+            </div>
+        </div>
+<!-- ---------------------------------------------------------------- -->
+        <div class="box">
+            <div class="hov-img">
+                <img src="images/img.png" alt="img">
+            </div>
+            <div class="box-text">
+                <div class="text-in">
+                    <h5> picture </h5>
+                </div>
+            </div>
+        </div>
+<!-- ---------------------------------------------------------------- -->
+        
+<!-- -------------------------------------------------------------- -->
+        <div class="box">
+            <div class="hov-img">
+                <img src="images/img.png" alt="img">
+            </div>
+            <div class="box-text">
+                <div class="text-in">
+                    <h5> picture </h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</section>
+<br> <br> <br><br> <br> <br>
+<!-- About us section  -->
+
+<section class="about" id="About">
+    <div class="about-text">
+                <h1> About us</h1>
+                <p> Welcome to our web application, which serves as a comprehensive guide
+                to the different locations in our city.  Our aim is to provide a user-friendly
+                platform  where people can easily explore and learn more about the different neighborhoods, 
+                landmarks, and points of interest in the area.
+                </p>
+            
+    </div>
+    <br> <br>
+    <div class="about-img">
+        <img src="images/aboutus.svg" alt="about">
+        </div>
+    </div>
+
+
+</section>

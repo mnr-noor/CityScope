@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top:0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 22px 12%;
+}
+
+.logo{
+    max-width: 100%;
+    width: 115px;
+    height: auto;
+    font-size: 27px;
+    color: #2A2550;
+
+}
+
+.navmenu{
+    display: flex;
+    
+}
+.navmenu li{
+    position: relative;
+
+}
+.navmenu a{
+
+    color: #e04d01;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 500;
+    padding: 15px 25px;
+    transition:all .42s ;
+
+}
+
+.navmenu a::after{
+    content: '';
+    position: absolute;
+    width:0;
+    height: 2px;
+    background:#e04d01;
+    bottom: -2px;
+    left: 0;
+    transition: all .42s;
+
+}
+
+.navmenu a:hover::after{
+    width: 100%;
+}
+
+.btn-icon{
+    display:flex ;
+    align-items: center;
+}
+.nav-btn{
+    font-size: 17px;
+    color: #FD6A2D;
+    font-weight: 500;
+    border: 2px solid #2A2550  ;
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin-right: 20px;
+    transition: all .42s;
+    
+}
+.nav-btn:hover{
+    background-color: #2A2550;
+    color: #fff;
+}
+
+.menu-icon{
+    font-size: 35px;
+    color: #2A2550;
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
+}
+
+.logout:hover{
+    background-color: red;
+    color: white ;
+    
+}
+
+section{
+    padding: 60px 12%;
+}
+
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/Dec4.png);
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+.home-img img{
+    max-width: 100%;
+    width: 800px;
+    height: auto;
+
+}
+.home-text h1{
+    color: #FD6A2D;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    letter-spacing: 0.5px;
+}
+.home-text h4{
+    color: #2A2550;
+    font-size: 60px;
+    font-family: 'Volkhov';
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: -0.04em;
+    margin-bottom: 18px;
+    
+}
+
+/* stick design  */
+header.sticky{
+    background-color: #FDD695;
+    padding: 22px 12%;
+    box-shadow: 0px 4px 15px rgb(0 0 0 / 8%);
+    transition: .42s;
+}
+
+
+
+
+
+
+/* category section design  */
+
+.center-text {
+    text-align: center;
+    font-size: 35px;
+    color: #2A2550;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+
+
+
+.cate{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(260px,auto));
+    gap:2rem;
+    text-align: center;
+
+}
+
+.row{
+    padding: 60px 40px;
+    background-color: #ffeed2;
+    box-shadow:rgba(0, 0,0,0.1)-4px 20px 25px -2px ;
+    transition: all .42s;
+}
+.row h2{
+    color: #2A2550;
+}
+.row:hover{
+    transform: translateY(-10px);
+
+}
+
+/* gallery section  */
+
+.gal-pics{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    
+}
+
+.hov-img img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 20px;
+    transition: all .42s;
+
+}
+
+.gal-text{
+    text-align: center;
+    font-size: 35px;
+    color: #2A2550;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 30px;
+
+}
+
+.box{
+    position: relative;
+}
+
+.box .text-in{
+    position: absolute;
+    bottom: 25px;
+    left: 20px;
+}
+.hov-img{
+    overflow: hidden;
+}
+.hov-img:hover img{
+    transform: scale(1.1);
+    filter: brightness(50%)hue-rotate(45deg);
+
+}
+
+/* About us  section  */ */
+.about{
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(240px,auto));
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+} 
+.about-text h1{
+    font-size: 40px;
+    color: #2A2550;
+    padding: 10px 0px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+.about-text p {
+    font-size: 15px;
+    color: #3b3950;
+    margin: 0.5rem 0 1.7rem;
+    text-align: justify;
+
+}
+
+.about-img{
+    
+        width: 450px;
+        height: 100%;
+        overflow: hidden;
+
+    } 
+
+
+/* Register section  */
+
+/* responsive design  */
+
+@media(max-width: 1265px){
+    header{
+        padding: 25px 4%;
+        transition: .3s;
+    }
+    section{
+        padding: 60px 4%;
+        transform: .3s;
+    }
+}
+@media(max-width: 1050px){
+    .home{
+        grid-template-columns: 1fr;
+        height: 100%;
+        transition: .3s;
+    }
+    .home-text{
+        padding-top: 100px;
+        text-align: center;
+        transition: .3s;
+    }
+    .home-img img{
+        padding-top:50px ;
+        transition: .3s;
+    }
+}
+@media(max-width:1180px){
+    .home-text h1 {
+        font-size: 20px;
+        transition: .3s;
+    }
+    .home-text h4{
+        font-size: 60px;
+        transition: .3s;
+    }
+    
+}
+@media(max-width:415px){
+    .home-text h1{
+        font-size: 40px;
+        line-height: 50px;
+        transition: .3s;
+    }
+}
+@media(max-width:1000px) {
+    .abut-text{
+        grid-template-columns: 1fr;
+        height: 100%;
+        text-align: center;
+        transition: .3s;
+    }
+}
+@media(max-width:970px){
+    .bx bx-menu{
+        display: block;
+    }
+    .navmenu{
+        position: absolute;
+        top: -600px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        background: #FDD695;
+    }
+    .navmenu a{
+        display: block;
+        padding: 16px;
+        margin: 8px;
+        border-left: 2px solid #2A2550;
+    }
+    .navmenu.open{
+        top: 100%;
+    }
+    
+}
